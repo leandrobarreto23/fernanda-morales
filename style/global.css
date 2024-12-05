@@ -5,6 +5,23 @@
 
   --ff-poppins: "Poppins", sans-serif;
   --ff-montserrat: "Montserrat", sans-serif;
+
+  /* colors */
+  --light-blue: #87CEFA; /* bg */
+  --medium-blue: #4682B4; /* text */
+  --dark-blue: #1E90FF; /* animation */
+
+  /* Pink Shades */
+  --light-pink: #FFC0CB; /* buttons */
+  --hot-pink: #FF69B4; /* emphasys */
+  --pastel-pink: #FADADD; /* bg */
+
+  /* Neutral Colors */
+  --snow-white: #F8F8FF; /* neutra */
+  --light-gray: #D3D3D3; /* divisor */
+  --medium-gray: #A9A9A9;
+  --dark-gray: #696969;
+  --beige: #F5F5DC; /* elegance */
 }
 
 * {

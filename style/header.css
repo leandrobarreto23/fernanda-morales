@@ -7,6 +7,14 @@ header {
     justify-content: space-between;
   }
 
+  & a {
+    transition: color 200ms ease-in;
+  }
+
+  & a:hover {
+    color: var(--dark-blue);
+  }
+
   & ul {
     gap: 1.6rem;
   }

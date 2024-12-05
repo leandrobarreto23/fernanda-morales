@@ -5,6 +5,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--light-pink);
   }
 
   & a {
@@ -17,10 +19,12 @@ header {
 
   & ul {
     gap: 1.6rem;
+    align-items: center;
   }
 
   & i {
     font-size: 3.2rem;
+    padding: 1.2rem;
   }
 
   & #organize-1 {
@@ -28,10 +32,5 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-  }
-
-  & .container {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--light-pink);
   }
 }

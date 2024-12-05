@@ -22,4 +22,16 @@ header {
   & i {
     font-size: 3.2rem;
   }
+
+  & #organize-1 {
+    width: 22rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  & .container {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--light-pink);
+  }
 }

@@ -1,9 +1,11 @@
 #hero {
-  height: calc(100vh - 8.2rem);
+  height: calc(100vh - 10.2rem);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: .8rem;
+
+  position: relative;
 
   & h1 {
     font-size: 12.8rem;
@@ -21,7 +23,14 @@
 
     & i {
       font-size: 3.6rem;
-      color: var(--dark-gray);
+      color: var(--hot-pink);
     }
+  }
+
+  & #organize-2 {
+    width: 22rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }

@@ -1,0 +1,21 @@
+#hero {
+  height: calc(100vh - 8.2rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+
+  & h1 {
+    font-size: 9.2rem;
+    font-weight: normal;
+  }
+
+  & #arrow-down{
+    display: block;
+    margin-top: 15rem;
+
+    & i {
+      font-size: 3.6rem;
+    }
+  }
+}
